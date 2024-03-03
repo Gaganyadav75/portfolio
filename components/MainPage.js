@@ -31,9 +31,9 @@ const MainPage = () => {
             <button type="button" className="joinbtn"><Link href="/projects">works</Link></button>
             <button type="button" className="chatbtn"><span><a href="https://wa.me/+917549878755">Let's Chat</a></span></button>
         </div>
-        <div className="myimgdiv z-0 tablet:relative absolute bottom-0  w-full tablet:flex tablet:w-[50%] tablet:h-full tablet:justify-center items-end h-[50%]">
-          <div className="tablet:items-end flex justify-end items-center aspect-square w-full max-w-full max-h-full tablet:w-[50%] tablet:max-w-[700px] tablet:max-h-[800px] ">
-          <img src="myself.png" className="w-60 tablet:w-full  "/>
+        <div className="myimgdiv z-0 tablet:relative absolute bottom-0  w-full tablet:flex tablet:w-[50%] tablet:h-full tablet:justify-center items-end h-auto">
+          <div className="tablet:items-end flex justify-end items-center h-auto w-full tablet:w-[50%] tablet:max-w-[700px] tablet:max-h-[800px] ">
+          <img src="myself.png" className="w-60 tablet:w-full  " alt="image"/>
           </div>
         </div>
     </div>

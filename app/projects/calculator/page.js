@@ -4,7 +4,7 @@ import Calculator from "@/components/Calculator"
 
 const page = () => {
   return (
-    <div classname="">
+    <div >
       <Calculator/>
     </div>
   )
