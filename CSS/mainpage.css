@@ -68,9 +68,11 @@
     .banner .mainsection{
         flex-direction: column;
         justify-content: center;
+        height: calc(100vh - 90px);
     }
     .banner .mainsection >div.insidemain{
         width: 90%;
+        padding-right: 0;
     }
     .banner .mainsection .insidemain h1{
         font-size: 8vw;

@@ -19,7 +19,7 @@ function Skills() {
       ]
     
       return (
-        <div className="mainskilldiv  w-full h-[calc(100%-70px)] text-center py-4 px-12 flex flex-col items-center overflow-y-scroll">
+        <div className="mainskilldiv w-full h-[calc(100%-70px)] text-center tablet:h-[calc(100%-90px)] pt-4 p-0 tablet:p-6 flex flex-col items-center overflow-y-scroll">
          <h1 className="text-3xl first:text-orange-500 font-bold">What I Do</h1>
          <p className="skillsptag text-lg px-14 dark:text-white text-black">I am from bihar and currently living in noida. I am B.Com First Year Student and I will be graduating in the year 2026 and I am Fresher right now looking for an internship as an FrontEnd web developer. </p>
     

@@ -25,7 +25,7 @@ const MainPage = () => {
 <>
 
     <div className="mainsection flex" >
-        <div className="insidemain  p-5 w-full tablet:w-[50%] h-[40%]">
+        <div className="insidemain p-2 tablet:p-5 w-full tablet:w-[50%] h-[40%]">
             <h1>I am <span  id="text"></span></h1>
             <p>let's Break the Matrix</p>
             <button type="button" className="joinbtn"><Link href="/projects">works</Link></button>

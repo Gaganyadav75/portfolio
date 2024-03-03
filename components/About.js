@@ -1,7 +1,7 @@
 
 const About = () => {
   return (
-    <div className="aboutmaindiv overflow-y-scroll tablet:overflow-hidden w-full h-[calc(100vh-70px)] mt-[10%] flex justify-center items-start tablet:items-center tablet:m-0">
+    <div className="aboutmaindiv overflow-y-scroll tablet:overflow-hidden w-full h-[calc(100vh-90px)] tablet:h-[calc(100vh-70px)] mt-[10%] flex justify-center items-start tablet:items-center tablet:m-0">
     <div className=" w-[90%] p-[5%] text-center flex flex-col-reverse justify-around content-center gap-4 tablet:flex-row tablet:w-full tablet:gap-0 tablet:text-start pb-[20%]">
         <div className="p-[5%] w-[100%] tablet:w-[40%]">
             <h2 className="text-[6vw] font-bold tablet:text-[2.5vw]">
