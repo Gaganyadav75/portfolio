@@ -1,0 +1,97 @@
+
+.banner{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+.banner .mainsection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: calc(100vh - 70px);
+
+
+}
+
+.banner .mainsection .insidemain{
+    width: 50%;
+    padding: 0 50px;
+    padding-bottom: 150px;
+}
+
+.banner .mainsection h1{
+    font-size: 4vw;
+}
+.banner .mainsection span{
+    color: orange;
+
+}
+
+.banner .mainsection p{
+    margin-top: 5px;
+    font-size: 1.5vw;
+}
+
+.banner .mainsection button{
+    padding: 10px 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 1vw;
+    font-weight: 600;
+}
+.banner .mainsection .joinbtn{
+    color: white;
+    background-color: orange;
+}
+.banner .mainsection .chatbtn{
+    background: none;
+}
+.banner .mainsection .chatbtn span{
+    padding-right: 3px;
+    animation: blinking 2s ease-in-out both infinite;
+}
+
+@keyframes blinking {
+    100%{
+        border-right: 1.5px solid black;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .banner .mainsection{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .banner .mainsection >div.insidemain{
+        width: 90%;
+    }
+    .banner .mainsection .insidemain h1{
+        font-size: 8vw;
+    }
+    .banner .mainsection .insidemain p{
+        font-size: 3vw;
+    }
+    .banner .mainsection .insidemain button.joinbtn{
+        font-size: 2vw;
+    }
+    .banner .mainsection .insidemain button.chatbtn{
+        font-size: 2vw;
+    }
+}
+
+
+.eachskilldiv img{
+    aspect-ratio: 1/1;
+}
+
+.myimgdiv img{
+    filter: drop-shadow(0 0 10px orange);
+    /* box-shadow: 0 0 10px orange; */
+}

@@ -1,0 +1,22 @@
+.projectmaindiv{
+    height: calc(100% - 70px);
+    display: grid;
+    grid-template-columns: 0.8fr 4fr;
+    background: transparent;
+}
+
+.projectnav{
+    border-right: 1px solid black;
+}
+.projectnav ul{
+    flex-direction: column;
+    background: transparent;
+}
+
+@media screen and (max-width:764px){
+    .projectmaindiv{
+        height: calc(100% - 90px);
+        grid-template-columns: 1fr 3.8fr;
+    }
+}
+

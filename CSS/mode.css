@@ -1,0 +1,86 @@
+
+.banner .modeswitch{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(195, 192, 192);
+    box-shadow: 0px 0px 10px rgb(119, 119, 119);
+    transition: all 0.5s;
+     
+ }
+ 
+ .banner .modeswitch img{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+ }
+ .banner .modeswitch img:last-child{
+     display: none;
+ }
+ 
+ .banner.night {
+     background: #333647;
+ }
+ 
+ .banner.night .modeswitch > img:first-child{
+     display: none;
+ }
+ .banner.night .modeswitch > img:last-child{
+     display: block;
+ }
+ 
+ .banner.night header h3 ,
+ .banner.night header ul li a ,
+  .banner.night .mainsection .insidemain h1 ,
+  .banner.night .mainsection .insidemain p,
+  .banner.night .mainsection .insidemain button,
+  .banner.night nav ,
+  .banner.night  .aboutmaindiv,
+  .banner.night .mainprojecthomediv
+  {
+     color: white;
+ }
+ 
+ .banner.night header ul li a:hover{
+  color:#a0a0a0;
+ }
+
+ .banner.night header{
+    border: none;
+ }
+ .banner.night header a.activenav{
+    color: orange;
+ }
+
+ .banner.night  .aboutmaindiv,
+ .banner.night  .mainsection,
+ .banner.night .projectmaindiv,
+ .banner.night .mainskilldiv
+
+ {
+    background-color: #282a39;
+  }
+
+  .banner .skillsptag{
+    color:black;
+  }
+  .banner.night .skillsptag{
+    color:white;
+  }
+
+  .banner.night .eachskilldiv{
+    background: #252630;
+    box-shadow: 0px 2px 5px #191a23;
+    color: white;
+  }
+
+
+  .banner.night ::-webkit-scrollbar{
+    background-color: #282a39;;
+  }
