@@ -37,10 +37,10 @@ const About = () => {
             <div className="mb-1 text-sm">
                 <span className="inline-block w-[20%]">Github</span>
                 <span className="inline-block w-[10%]">:</span>
-                <span><a href="https://github.com/Gaganyadav75" target="_blank">https://github.com/Gaganyadav75</a></span>
+                <span><a href="https://github.com/Gaganyadav75" target="_blank">Gaganyadav75</a></span>
             </div>
 
-            <button className="bg-[#f87c58] text-white p-1 pl-2 pr-2 mt-1 rounded-[5px]">Download CV</button>
+            <button className="bg-[#f87c58] text-white p-1 pl-2 pr-2 mt-1 rounded-[5px]"><a href="gagan's cv.pdf" download>Download CV</a></button>
 
         </div>
     </div>
