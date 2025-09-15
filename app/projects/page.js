@@ -16,7 +16,7 @@ const page = () => {
         <h2 className="tablet:text-[1.5vw]">Stay Updated</h2>
         <p className="text-[2vw] tablet:text-[1vw]">Stay updated on my latest projects and endeavors by following me on 
 
-        <a className="inline-block ml-2 translate-y-[30%]" href="https://www.instagram.com/gagan_yadav_75/" target="_blank">
+        <a className="inline-block ml-2 translate-y-[30%]" href="https://www.instagram.com/gaganyadav.js" target="_blank">
           <img width="20" src="https://static.cdninstagram.com/rsrc.php/y4/r/QaBlI0OZiks.ico" loading="lazy"/></a>
         <a className="inline-block ml-2 mr-2 translate-y-[30%]" target="_blank" href="https://github.com/Gaganyadav75/">
         <svg height="20" aria-hidden="true" viewBox="0 0 16 16" version="1.1"  width="20" data-view-component="true" className="octicon octicon-mark-github v-align-middle color-fg-default">
