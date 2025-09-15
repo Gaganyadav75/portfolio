@@ -21,7 +21,7 @@ function Skills() {
       return (
         <div className="mainskilldiv w-full h-[calc(100%-70px)] text-center tablet:h-[calc(100%-90px)] pt-4 p-0 tablet:p-6 flex flex-col items-center overflow-y-scroll">
          <h1 className="text-3xl first:text-orange-500 font-bold">What I Do</h1>
-         <p className="skillsptag text-lg px-14 dark:text-white text-black">I am pursuing BCA at GNIOT Greate Noida.</p>
+         <p className="skillsptag text-lg px-14 dark:text-white text-black">I am pursuing BCA at GNIOT Greater Noida.</p>
     
          <div className="flex gap-14 w-full tablet:w-[85%] flex-wrap px-4 py-8 mt-6 items-center justify-center ">
            {allskills.map((ele)=>{
