@@ -7,7 +7,7 @@ function Skills() {
         {img:"https://media.zeemly.com/zeemly/product/tailwind-css.png",label:"TAILWIND"},
         {img:"https://www.britefish.net/wp-content/uploads/2019/06/logo-javascript-2.png",label:"JAVASCRIPT"},
         {img:"https://uploads-ssl.webflow.com/60a2acace1fd91aae61c497d/60ee04a3dee9b428a836325f_React_logo_logotype_emblem-p-1600.png",label:"REACT JS"},
-        {img:"https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png",label:"NODE JS"},
+        {img:"https://s3.amazonaws.com/clarityfm-production/attachments/32059/default/nodejs-512.png?1573156678",label:"NODE JS"},
     
         {img:"https://pngimg.com/uploads/github/github_PNG66.png",label:"GITHUB"},
         {img:"https://pngimg.com/uploads/mysql/mysql_PNG23.png",label:"MYSQL"},
@@ -21,7 +21,7 @@ function Skills() {
       return (
         <div className="mainskilldiv w-full h-[calc(100%-70px)] text-center tablet:h-[calc(100%-90px)] pt-4 p-0 tablet:p-6 flex flex-col items-center overflow-y-scroll">
          <h1 className="text-3xl first:text-orange-500 font-bold">What I Do</h1>
-         <p className="skillsptag text-lg px-14 dark:text-white text-black">I am from bihar and currently living in noida. I am B.Com First Year Student and I will be graduating in the year 2026 and I am Fresher right now looking for an internship as an FrontEnd web developer. </p>
+         <p className="skillsptag text-lg px-14 dark:text-white text-black">I am pursuing BCA at GNIOT Greate Noida.</p>
     
          <div className="flex gap-14 w-full tablet:w-[85%] flex-wrap px-4 py-8 mt-6 items-center justify-center ">
            {allskills.map((ele)=>{
